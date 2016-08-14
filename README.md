@@ -1,7 +1,7 @@
 # elastic_hunter.py
-Quickly do IOC searches on data indexed by Elasticsearch ( I use md5 / filename as an example because I'm lazy -- yes I know these are brittle. )
+Quickly do IOC searches on data indexed by Elasticsearch ( I use md5 / filename as an example because I'm lazy -- yes I know these are brittle. ) 
 
-## 1. IOCs you wish to search must be in CSV format
+## 1. IOCs you wish to search must be in CSV format -- row data does not need to be related, the column is what matters
 ```bash
 # example:
 "md5","file_name"
