@@ -5,11 +5,11 @@ Quickly do IOC searches on data indexed by Elasticsearch
 ```bash
 # example:
 "md5_hashes","file_path"
-"C35906060A4B79FCB9564248C472741E","legitimate_file1.exe"
-"41202F5DBD630BA5E29A3B0DAD1FE9C1","legitimate_file2.exe"
-"90F0BC619BEF2A3BEFEACA0B2F0407DB","legitimate_file3.exe"
+"C35906060A4B79FCB9564248C472741E","evil_file1.exe"
+"41202F5DBD630BA5E29A3B0DAD1FE9C1","evil_file2.exe"
+"90F0BC619BEF2A3BEFEACA0B2F0407DB","evil_file3.exe"
 ...
-"2B9CC45773D7E15C2855239B15A7DA35","evil.exe"
+"2B9CC45773D7E15C2855239B15A7DA35","really_evil.exe"
 ```
 
 ## 2. Your index fields must match the name of the CSV headers
